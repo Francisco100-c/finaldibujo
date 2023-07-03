@@ -1,0 +1,46 @@
+.Nav{
+    background-image: url("/public/Img/navbar.png");
+    height: 60px;
+    
+}
+
+.rutaActiva{
+    color: red;
+    text-decoration: none;
+    
+}
+.rutaNoActiva{
+    color: black;
+    text-decoration: none;
+    
+}
+.color{
+    color: black !important;
+    height: 50px;
+    padding-left: 25px;
+
+}
+
+.encabezado{
+    color: white;
+    padding-top: 40px;
+    padding-left: 300px;
+    
+}
+.carrito{
+    padding-left: 1450px;
+}
+
+.texto{
+    padding-left: 800px;
+    font-family: cursive;
+    color: white;
+    font-weight: 60px;   
+}
+
+.texto1{
+    
+    font-family: cursive;
+    color: white;
+    font-weight: 60px;   
+}

@@ -1,0 +1,27 @@
+
+.leyenda{
+    color: white;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.img{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.Fondo{
+    display: flex;
+    background-image:url("/public/Img/fondo\ final.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+
+}
+.imagenHome{
+    background-image: url("/public/Img/Muestra.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
