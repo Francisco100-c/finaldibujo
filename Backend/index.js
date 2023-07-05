@@ -12,7 +12,7 @@ const {getUsuarios, agregarUsuario, verificarCredenciales, obtenerUsuario, getPo
 app.use(cors());
 app.use(express.json());
 
-app.listen( 3000, console.log("SERVER ON PROYECTO FINAL"))
+app.listen( process.env.PORT, console.log("SERVER ON PROYECTO FINAL"))
 
 app.get("/usuarios", async (req, res) => {
     try {
