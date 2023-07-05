@@ -1,4 +1,4 @@
-const pool  = require('./conexion')
+
 const bcrypt = require('bcryptjs')
 const env =require('dotenv')
 

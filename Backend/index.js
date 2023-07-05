@@ -2,7 +2,7 @@ const express = require ('express');
 const fs = require('fs')
 const app = express();
 const cors = require('cors');
-const pool  = require('./conexion');
+
 const jwt = require("jsonwebtoken");
 const {api_secret }= require ('./config')
 
