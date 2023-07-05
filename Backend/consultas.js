@@ -1,7 +1,19 @@
 const pool  = require('./conexion')
 const bcrypt = require('bcryptjs')
+const env =require('dotenv')
 
+const pool= new Pool(
+    {
+connectionString: process.env.POSTGRES_URL + "?sslmode=require",                      
+});
 
+const getDate = async ()=>{
+const query = 'SELECT NOW()'
+const result = await pool.query(query);
+console.log(result.rows);
+};
+
+getDate();
 const getUsuarios = async () => {
     const { rows: usuarios } = await pool.query("SELECT * FROM usuarios1")
     return usuarios
